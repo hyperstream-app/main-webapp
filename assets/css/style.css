@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap");
+
+:root {
+  --white: #ffffff;
+  --red: #fca5a5;
+  --green: #27a09e;
+  --inter: "Inter", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: mintcream;
+}
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 55px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  display: flex;
+  overflow-x: auto;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 13px;
+  color: #444444;
+  text-decoration: none;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background-color: #27a09e;
+}
+
+.nav-link.active {
+  color: #fff;
+  background-color: #27a09e;
+}
+
+.nav-icon {
+  font-size: 18px;
+}
+
+.nav-link>span {
+  margin-top: 5px;
+}
+
+.card-shadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.card-details {
+  display: inline-block;
+  width: 100%;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.items-btn {
+  width: 50%;
+  margin: 7px 20px;
+  background-color: #27a09e;
+}
+
+.product-image {
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.delete-item {
+  cursor: pointer;
+}
